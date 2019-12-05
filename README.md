@@ -19,7 +19,7 @@ Usage
 Shorter version:
 
 ```ts
-import { en, de } from '...';
+import { en, de } from 'https://deno.land/x/ende/mod.ts';
 
 const buffer: Uint8Array = en('abc');
 const text: string = de(buffer);
@@ -28,7 +28,7 @@ const text: string = de(buffer);
 More readable version:
 
 ```ts
-import { encode, decode } from '...';
+import { encode, decode } from 'https://deno.land/x/ende/mod.ts';
 
 const buffer: Uint8Array = encode('abc');
 const text: string = decode(buffer);
