@@ -4,7 +4,7 @@ Text encoder and decoder exported as simple functions.
 
 To be able to write quickly:
 ```ts
-Deno.stdout.write(en('abc'));
+Deno.stdout.write(encode('abc'));
 ```
 instead of a common idiom:
 ```ts
