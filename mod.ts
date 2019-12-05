@@ -1,3 +1,6 @@
+// Copyright (c) 2019 Rafał Pocztarski. All rights reserved.
+// MIT License (Expat). See: https://github.com/rsp/deno-ende
+
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
 
