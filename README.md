@@ -49,8 +49,6 @@ Decoder function aliases:
 - `dec(x: Uint8Array): string`
 - `decode(x: Uint8Array): string`
 
-```
-
 Issues
 -
 For any bug reports or feature requests please
